@@ -1,0 +1,14 @@
+name: ainana
+version: '${project.version}'
+main: com.github.kumo0621.ainana.Ainana
+api-version: 1.16
+commands:
+  nana:
+    permission: nana
+  ai:
+    permission: ai
+permissions:
+  nana:
+    default: true
+  ai:
+    default: op
